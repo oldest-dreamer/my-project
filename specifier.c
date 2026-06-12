@@ -2,9 +2,19 @@
 #define pi 3.1416
 int main()
 {
-  int a = 8;
-const float b = 7.2;
-printf("tab (\t or \n\n or \v) my backslesh \\n %f\n" , pi);
+  // select variable
+    int a = 8;
+    float b = 7.2;
+
+    // 2. Printing the numbers include here
+    printf("The whole number : %d\n", a);
+    printf("The decimal number : %f\n", b);
+    printf("The value of PI : %f\n\n", PI);
+
+    // 3. Printing text formatting demo safely
+    printf("Testing a horizontal tab gap: Hello\tWorld\n");
+    printf("Testing a double newline gap: Hello\n\nWorld\n");
+
 
 return 0;
   }
